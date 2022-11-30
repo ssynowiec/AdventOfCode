@@ -8,6 +8,6 @@ This repo containing my solutions to Advent of Code since 2022.
 
 ## Progress
 
-| Year | Status    | Progress  |     |
-| :--- | :-------- | :-------- | :-- |
-| 2022 | `soon...` | 0/25 (0%) | ⏰  |
+| Year                    | Status    | Progress  |     |
+| :---------------------- | :-------- | :-------- | :-- |
+| [2022](/tree/main/2022) | `soon...` | 0/25 (0%) | ⏰  |
