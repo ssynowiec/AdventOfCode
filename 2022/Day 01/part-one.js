@@ -1,7 +1,7 @@
 const { promises: fsPromises } = require('fs');
 const { dirname } = require('path');
 
-async function asyncReadFile(filename) {
+const asyncReadFile = async filename => {
 	try {
 		const contents = await fsPromises.readFile(
 			dirname(__filename) + filename,
@@ -14,9 +14,9 @@ async function asyncReadFile(filename) {
 	} catch (err) {
 		console.log(err);
 	}
-}
+};
 
-const mostCalories = async input => {
+const partOne = async input => {
 	const data = await asyncReadFile(input);
 
 	const totalCaloriesPossessedByElves = [];
@@ -37,4 +37,4 @@ const mostCalories = async input => {
 	return Math.max(...totalCaloriesPossessedByElves);
 };
 
-module.exports = { partOne: mostCalories };
+module.exports = { partOne };
