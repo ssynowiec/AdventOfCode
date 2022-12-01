@@ -16,22 +16,25 @@ async function asyncReadFile(filename) {
 	}
 }
 
-const mostCalories = async () => {
-	const data = await asyncReadFile('/data.txt');
+const mostCalories = async input => {
+	const data = await asyncReadFile(input);
 
 	const totalCaloriesPossessedByElves = [];
 
 	let caloriesPossessedByElf = 0;
-	data.forEach(calories => {
+	data.forEach((calories, i) => {
 		if (calories !== '') {
 			caloriesPossessedByElf += parseInt(calories);
 		} else {
 			totalCaloriesPossessedByElves.push(caloriesPossessedByElf);
 			caloriesPossessedByElf = 0;
 		}
+		if (i === data.length - 1) {
+			totalCaloriesPossessedByElves.push(caloriesPossessedByElf);
+		}
 	});
 
 	return Math.max(...totalCaloriesPossessedByElves);
 };
 
-mostCalories().then(result => console.log(result));
+module.exports = { partOne: mostCalories };
