@@ -10,4 +10,4 @@ This repo containing my solutions to Advent of Code since 2022.
 
 | Year                                                             | Status           | Progress  |     |
 | :--------------------------------------------------------------- | :--------------- | :-------- | :-- |
-| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `in progress...` | 0/25 (0%) | ⏰  |
+| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `in progress...` | 1/25 (4%) | 🏗   |
