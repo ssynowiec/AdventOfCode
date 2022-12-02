@@ -2,10 +2,10 @@
 
 > Solutions of [Advent of Code 2022](http://adventofcode.com/2022/) puzzles
 
-Completed: 1/25 (4%)
+Completed: 1/25 (6%)
 
 -   ✅ [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2001) ⭐⭐
--   Day 02
+-   [Day 02](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2002) ⭐
 -   Day 03
 -   Day 04
 -   Day 05
