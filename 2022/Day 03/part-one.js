@@ -86,8 +86,6 @@ const partOne = async input => {
 				break;
 			}
 		}
-
-		firstPartition.forEach(letter => {});
 	});
 
 	return sum;
