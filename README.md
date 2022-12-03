@@ -20,6 +20,6 @@ In each puzzle I import data from `data.txt` wich includes input data downloaded
 
 ## Progress
 
-| Year                                                             | Status           | Progress  |     |
-| :--------------------------------------------------------------- | :--------------- | :-------- | :-- |
-| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `in progress...` | 2/25 (8%) | 🏗   |
+| Year                                                             | Status           | Progress   |     |
+| :--------------------------------------------------------------- | :--------------- | :--------- | :-- |
+| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `in progress...` | 2/25 (10%) | 🏗   |
