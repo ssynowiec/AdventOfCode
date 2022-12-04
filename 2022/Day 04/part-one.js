@@ -46,6 +46,4 @@ const partOne = async input => {
 	return count;
 };
 
-partOne('/test.data.txt').then(res => console.log(res));
-
 module.exports = { partOne };
