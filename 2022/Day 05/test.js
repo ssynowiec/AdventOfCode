@@ -33,4 +33,13 @@ testTheSoulution(
 	'/array.js',
 	'CMZ',
 );
-// testTheSoulution(partTwo, '/test.data.txt', '/data.txt', 'Part two');
+
+testTheSoulution(
+	partTwo,
+	'/test.data.txt',
+	'/data.txt',
+	'Part two',
+	'/test.array.js',
+	'/array.js',
+	'MCD',
+);
