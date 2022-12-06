@@ -17,4 +17,4 @@ const testTheSoulution = (fun, testData, data, testName, result) => {
 };
 
 testTheSoulution(partOne, '/test.data.txt', '/data.txt', 'Part one', 7);
-// testTheSoulution(partTwo, '/test.data.txt', '/data.txt', 'Part two');
+testTheSoulution(partTwo, '/test.data.txt', '/data.txt', 'Part two', 19);
