@@ -1,4 +1,4 @@
-# --- Day 7: Calorie Counting ---
+# --- Day 7: No Space Left On Device ---
 
 ## [Suorce](http://adventofcode.com/2022/day/7)
 
