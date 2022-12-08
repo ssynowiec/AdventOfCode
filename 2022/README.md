@@ -10,7 +10,7 @@ Completed: 6/25 (24%)
 -   ✅ [Day 04](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2004) ⭐⭐
 -   ✅ [Day 05](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2005) ⭐⭐
 -   ✅ [Day 06](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2006) ⭐⭐
--   Day 07
+-   ❌ [Day 07](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2007)
 -   Day 08
 -   Day 09
 -   Day 10
