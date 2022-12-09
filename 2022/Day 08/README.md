@@ -5,7 +5,7 @@
 | Name                                                                                      | Correctness |
 | :---------------------------------------------------------------------------------------- | :---------- |
 | [Part One](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/part-one.js) | Correct ✅  |
-| [Part Two](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/part-two.js) | ❌          |
+| [Part Two](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/part-two.js) | Correct ✅  |
 | [Test](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/test.js)         | Passed ✅   |
 
-### Day completed with ⭐
+### Day completed with ⭐⭐

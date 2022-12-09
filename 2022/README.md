@@ -2,7 +2,7 @@
 
 > Solutions of [Advent of Code 2022](http://adventofcode.com/2022/) puzzles
 
-Completed: 6/25 (26%)
+Completed: 7/25 (28%)
 
 -   ✅ [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2001) ⭐⭐
 -   ✅ [Day 02](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2002) ⭐⭐
@@ -11,7 +11,7 @@ Completed: 6/25 (26%)
 -   ✅ [Day 05](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2005) ⭐⭐
 -   ✅ [Day 06](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2006) ⭐⭐
 -   ❌ [Day 07](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2007)
--   [Day 08](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2008) ⭐
+-   ✅ [Day 08](https://github.com/ssynowiec/AdventOfCode/tree/main/2022/Day%2008) ⭐⭐
 -   Day 09
 -   Day 10
 -   Day 11
