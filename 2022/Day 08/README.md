@@ -4,8 +4,8 @@
 
 | Name                                                                                      | Correctness |
 | :---------------------------------------------------------------------------------------- | :---------- |
-| [Part One](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/part-one.js) | ❌          |
+| [Part One](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/part-one.js) | Correct ✅  |
 | [Part Two](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/part-two.js) | ❌          |
-| [Test](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/test.js)         | ❌          |
+| [Test](https://github.com/ssynowiec/AdventOfCode/blob/main/2022/Day%2008/test.js)         | Passed ✅   |
 
-### Day no completed
+### Day completed with ⭐

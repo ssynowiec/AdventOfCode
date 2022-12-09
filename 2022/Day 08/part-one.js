@@ -24,80 +24,62 @@ const partOne = async input => {
 		const x = data[i];
 
 		if (i === 0 || i === data.length - 1) {
-			// count += x.length;
-
+			count += x.length;
 			continue;
 		}
 		for (let j = 0; j < x.length; j++) {
-			let isVisible = false;
 			if (j === 0 || j === x.length - 1) {
-				// count++;
+				count++;
 				continue;
 			}
 			const tree = x[j];
-			for (let k = i; i + k <= data.length - 1; k++) {
-				const bottom = data[i + k][j];
-				if (tree > bottom && !isVisible) {
-					isVisible = true;
-					count++;
-					break;
+			const bottomv = () => {
+				for (let k = i + 1; k < data.length; k++) {
+					const bottom = data[k][j];
+					if (tree <= bottom) {
+						return false;
+					}
 				}
-				if (bottom >= tree) {
-					isVisible = false;
-					break;
-				}
-			}
-			for (let l = 1; j + l <= x.length - 1; l++) {
-				const right = x[j + l];
-				if (tree > right && !isVisible) {
-					isVisible = true;
-					count++;
-					break;
-				}
-				if (right >= tree) {
-					isVisible = false;
-					break;
-				}
-			}
+				return true;
+			};
 
-			for (let k = i - 1; k >= 0; k--) {
-				const top = data[k][j];
-				if (tree > top && !isVisible) {
-					isVisible = true;
-					count++;
-					break;
+			const topv = () => {
+				for (let l = i - 1; l >= 0; l--) {
+					const top = data[l][j];
+					if (tree <= top) {
+						return false;
+					}
 				}
-				if (top >= tree) {
-					isVisible = false;
-					break;
+				return true;
+			};
+
+			const rightv = () => {
+				for (let l = 1; j + l <= x.length - 1; l++) {
+					const right = x[j + l];
+					if (tree <= right) {
+						return false;
+					}
 				}
+				return true;
+			};
+
+			const leftv = () => {
+				for (let k = j - 1; k >= 0; k--) {
+					const left = x[k];
+					if (tree <= left) {
+						return false;
+					}
+				}
+				return true;
+			};
+
+			if (topv() || leftv() || rightv() || bottomv()) {
+				count++;
 			}
-			for (let l = j - 1; l >= 0; l--) {
-				const left = x[l];
-				if (tree > left && !isVisible) {
-					isVisible = true;
-					count++;
-					break;
-				}
-				if (left >= tree) {
-					isVisible = false;
-					break;
-				}
-			}
-			if (
-				`${i}${j}` === '31' ||
-				`${i}${j}` === '32' ||
-				`${i}${j}` === '33'
-			) {
-				console.log(count);
-			}
-			console.log(`${i},${j} (${data[i][j]}): ${count}`);
 		}
 	}
 
 	return count;
 };
-
-partOne('/test.data.txt').then(console.log);
 
 module.exports = { partOne };
