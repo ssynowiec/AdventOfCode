@@ -22,4 +22,4 @@ In each puzzle I import data from `data.txt` wich includes input data downloaded
 
 | Year                                                             | Status           | Progress   |     |
 | :--------------------------------------------------------------- | :--------------- | :--------- | :-- |
-| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `in progress...` | 7/25 (28%) | 🏗   |
+| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `in progress...` | 7/25 (30%) | 🏗   |
