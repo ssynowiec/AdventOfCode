@@ -7,7 +7,7 @@
 This repo containing my solutions to Advent of Code since 2022.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=typescript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=FFF)
 
 ## Informations
 
@@ -23,5 +23,5 @@ For each puzzle, there is a directory `YYYY/Day DD`, where DD is number of the d
 
 | Year                                                             | Status           | Progress   |     |
 | :--------------------------------------------------------------- | :--------------- | :--------- | :-- |
-| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `in progress...` | 9/25 (36%) | 🏗   |
-| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2023) | `in progress...` | 0/25 (0%)  | 🏗   |
+| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `not completed`  | 9/25 (36%) | ❌  |
+| [2023](https://github.com/ssynowiec/AdventOfCode/tree/main/2023) | `in progress...` | 0/25 (0%)  | 🏗   |
