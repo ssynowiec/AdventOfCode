@@ -16,7 +16,6 @@ export const partOne = async (input: string) => {
 			numbers => numbers[0],
 		);
 
-		// liczby?.map(number => {
 		const indexes: { number: string; index: number }[] = [];
 		let lineCopy = line;
 
@@ -36,7 +35,6 @@ export const partOne = async (input: string) => {
 				lineCopy.substring(index + number.length);
 		});
 
-		console.log(liczby, indexes);
 		indexes.forEach(index => {
 			const number = index.number;
 
@@ -91,15 +89,7 @@ export const partOne = async (input: string) => {
 
 			if (isPartNumber) {
 				result += parseInt(number);
-				console.log(
-					`${
-						topSymbols === undefined ? '' : topSymbols
-					}\n${leftCenter}${number}${rightCenter}\n${
-						bottomSymbols === undefined ? '' : bottomSymbols
-					}`,
-				);
 			}
-			// });
 		});
 	});
 
