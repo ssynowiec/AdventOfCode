@@ -87,20 +87,10 @@ export const partOne = async (input: string) => {
 
 	hands.sort(sortHand);
 
-	// hands.sort((a, b) => {
-	// 	if (a.type !== b.type) {
-	// 		return a.type.localeCompare(b.type);
-	// 	} else {
-	// 		return b.cards.localeCompare(a.cards);
-	// 	}
-	// });
-
 	hands.forEach((hand, i) => {
 		hand.power = i + 1;
 		result += hand.value * hand.power;
 	});
-
-	console.log(hands);
 
 	return result;
 };
