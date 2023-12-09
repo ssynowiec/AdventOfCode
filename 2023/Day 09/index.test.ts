@@ -13,14 +13,14 @@ test('part 1 should return 114', async () => {
 	}
 });
 
-// test('part 2 should return ', async () => {
-// 	const result = await partTwo(__dirname + '/test.data.txt');
-// 	const expectedResult = ;
+test('part 2 should return 2', async () => {
+	const result = await partTwo(__dirname + '/test.data.txt');
+	const expectedResult = 2;
 
-// 	expect(result).toBe(expectedResult);
+	expect(result).toBe(expectedResult);
 
-// 	if (result === expectedResult) {
-// 		const value = await partTwo(__dirname + '/input.data.txt');
-// 		console.log('Part 2:', value);
-// 	}
-// });
+	if (result === expectedResult) {
+		const value = await partTwo(__dirname + '/input.data.txt');
+		console.log('Part 2:', value);
+	}
+});

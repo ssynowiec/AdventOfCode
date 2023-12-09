@@ -9,7 +9,36 @@ export const partTwo = async (input: string) => {
 
 	let result = 0;
 
-	data.forEach(line => {});
+	data.forEach(line => {
+		const lineNumbers = line.split(' ').map(number => parseInt(number));
+
+		const lines: number[][] = [lineNumbers];
+
+		let lastLineIsZero: boolean = lineNumbers.every(number => number === 0);
+
+		let lastLine = lineNumbers;
+		while (!lastLineIsZero) {
+			let newLine: number[] = [];
+			for (let i = 0; i < lastLine.length - 1; i++) {
+				const number = lastLine[i];
+				const nexNumber = lastLine[i + 1];
+				newLine.push(nexNumber - number);
+			}
+			lastLine = newLine;
+			lastLineIsZero = newLine.every(number => number === 0);
+			lines.push(newLine);
+		}
+
+		let sum = 0;
+		for (let i = lines.length - 1; i >= 0; i--) {
+			const line = lines[i];
+
+			const firstNumber = line[0];
+
+			sum = -sum + firstNumber;
+		}
+		result += sum;
+	});
 
 	return result;
 };
