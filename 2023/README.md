@@ -13,7 +13,7 @@ Completed: 8/25 (32%)
 -   ✅ [Day 07](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2007) ⭐⭐
 -   [Day 08](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2008) ⭐
 -   [Day 09](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2009) ⭐⭐
--   [Day 10](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%20010) ⭐
+-   [Day 10](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2010) ⭐
 -   Day 11
 -   Day 12
 -   Day 13
