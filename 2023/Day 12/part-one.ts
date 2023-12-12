@@ -32,7 +32,7 @@ export const partOne = async (input: string) => {
 
 	data.forEach(line => {
 		const [records, condition] = line.split(' ');
-		console.log(records, condition);
+
 		const groups = condition.split(',').map(Number);
 
 		result += allVariants(records, groups).length;
