@@ -2,7 +2,7 @@
 
 > Solutions of [Advent of Code 2023](http://adventofcode.com/2023/) puzzles
 
-Completed: 8/25 (34%)
+Completed: 9/25 (36%)
 
 -   ✅ [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2001) ⭐⭐
 -   ✅ [Day 02](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2002) ⭐⭐
@@ -16,9 +16,9 @@ Completed: 8/25 (34%)
 -   [Day 10](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2010) ⭐
 -   [Day 11](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2011)
 -   [Day 12](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2012) ⭐
--   Day 13
--   Day 14
--   Day 15
+-   [Day 13](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2013)
+-   [Day 14](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2014)
+-   [Day 15](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2015) ⭐
 -   Day 16
 -   Day 17
 -   Day 18
