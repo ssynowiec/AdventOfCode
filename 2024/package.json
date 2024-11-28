@@ -1,0 +1,29 @@
+{
+	"name": "advent-of-code-2024",
+	"version": "1.0.0",
+	"description": "Solutions for Advent of Code 2024 in TypeScript",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ssynowiec/AdventOfCode.git",
+		"directory": "2024"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"adventofcode",
+		"aoc",
+		"aoc2024",
+		"typescript"
+	],
+	"author": "Stanisław Synowiec <stasyn1410@gmail.com> (https://ssynowiec.pl)",
+	"license": "ISC",
+	"engines": {
+		"node": ">=22.11.0",
+		"npm": ">=10.9.0",
+		"pnpm": ">=9.14.2",
+		"yarn": ">=4.5.3"
+	},
+	"packageManager": "pnpm@9.14.2"
+}

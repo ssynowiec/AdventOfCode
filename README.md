@@ -21,7 +21,8 @@ For each puzzle, there is a directory `YYYY/Day DD`, where DD is number of the d
 
 ## Progress
 
-| Year                                                             | Status           | Progress   |     |
-| :--------------------------------------------------------------- | :--------------- | :--------- | :-- |
-| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `not completed`  | 9/25 (36%) | ❌  |
-| [2023](https://github.com/ssynowiec/AdventOfCode/tree/main/2023) | `in progress...` | 9/25 (38%) | 🏗   |
+| Year                                                             | Status            | Progress   |     |
+| :--------------------------------------------------------------- | :---------------- | :--------- | :-- |
+| [2022](https://github.com/ssynowiec/AdventOfCode/tree/main/2022) | `not completed`   | 9/25 (36%) | ❌  |
+| [2023](https://github.com/ssynowiec/AdventOfCode/tree/main/2023) | `not completed`   | 9/25 (38%) | ❌  |
+| [2024](https://github.com/ssynowiec/AdventOfCode/tree/main/2024) | `not started yet` | 0/25 (0%)  | 🕕  |
