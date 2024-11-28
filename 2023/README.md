@@ -23,7 +23,7 @@ Completed: 9/25 (38%)
 -   Day 17
 -   Day 18
 -   [Day 19](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2019) ⭐
--   Day 20
+-   [Day 20](https://github.com/ssynowiec/AdventOfCode/tree/main/2023/Day%2020)
 -   Day 21
 -   Day 22
 -   Day 23

@@ -1,9 +1,9 @@
 import { partOne } from './part-one';
 import { partTwo } from './part-two';
 
-test('part 1 should return 21', async () => {
+test('part 1 should return 405', async () => {
 	const result = await partOne(__dirname + '/test.data.txt');
-	const expectedResult = 21;
+	const expectedResult = 405;
 
 	expect(result).toBe(expectedResult);
 
@@ -13,14 +13,14 @@ test('part 1 should return 21', async () => {
 	}
 });
 
-// test('part 2 should return 525152', async () => {
+// test('part 2 should return ', async () => {
 // 	const result = await partTwo(__dirname + '/test.data.txt');
-// 	const expectedResult = 525152;
+// 	const expectedResult = ;
 
 // 	expect(result).toBe(expectedResult);
 
-// 	// if (result === expectedResult) {
-// 	// 	const value = await partTwo(__dirname + '/input.data.txt');
-// 	// 	console.log('Part 2:', value);
-// 	// }
+// 	if (result === expectedResult) {
+// 		const value = await partTwo(__dirname + '/input.data.txt');
+// 		console.log('Part 2:', value);
+// 	}
 // });

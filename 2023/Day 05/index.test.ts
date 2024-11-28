@@ -12,3 +12,15 @@ test('part 1 should return 35', async () => {
 		console.log('Part 1:', value);
 	}
 });
+
+test('part 2 should return 46', async () => {
+	const result = await partTwo(__dirname + '/test.data.txt');
+	const expectedResult = 46;
+
+	expect(result).toBe(expectedResult);
+
+	// if (result === expectedResult) {
+	// 	const value = await partTwo(__dirname + '/input.data.txt');
+	// 	console.log('Part 2:', value);
+	// }
+});
