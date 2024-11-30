@@ -2,17 +2,14 @@ import { test, expect } from '@playwright/test';
 import { partOne } from './part-one';
 import { partTwo } from './part-two';
 
-let partOnePassed = false;
-
 test.describe('Day 01', () => {
 	const expectedResult1 = 0;
 	test(`Part 1 should return ${expectedResult1}`, async () => {
 		const result = await partOne(__dirname + '/test.data.txt');
 
-		partOnePassed = result === expectedResult1;
 		expect(result).toBe(expectedResult1);
 
-		if (partOnePassed) {
+		if (result === expectedResult1) {
 			const value = await partOne(__dirname + '/input.data.txt');
 			console.log('Part 1:', value);
 		}
