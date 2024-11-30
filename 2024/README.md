@@ -4,7 +4,7 @@
 
 Completed: 0/25 (0%)
 
--   Day 01
+-   [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2001)
 -   Day 02
 -   Day 03
 -   Day 04
