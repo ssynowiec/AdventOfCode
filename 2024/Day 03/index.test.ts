@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { partOne } from './part-one';
 import { partTwo } from './part-two';
 
-test.describe('Day 02', () => {
+test.describe('Day 03', () => {
 	const expectedResult1 = 161;
 	test(`Part 1 should return ${expectedResult1}`, async () => {
 		const result = await partOne(__dirname + '/test.data.txt');
@@ -15,9 +15,9 @@ test.describe('Day 02', () => {
 		}
 	});
 
-	const expectedResult2 = 0;
+	const expectedResult2 = 48;
 	test(`Part 2 should return ${expectedResult2}`, async () => {
-		const result = await partTwo(__dirname + '/test.data.txt');
+		const result = await partTwo(__dirname + '/test2.data.txt');
 
 		expect(result).toBe(expectedResult2);
 
