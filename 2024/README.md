@@ -6,7 +6,7 @@ Completed: 1/25 (12%)
 
 -   ✅ [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2001) ⭐⭐
 -   [Day 02](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2002) ⭐
--   Day 03
+-   [Day 03](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2003)
 -   Day 04
 -   Day 05
 -   Day 06
