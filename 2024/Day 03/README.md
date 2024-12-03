@@ -1,6 +1,6 @@
-# --- Day 3: Red-Nosed Reports ---
+# --- Day 3: ---
 
-## [Source](http://adventofcode.com/2024/day/2)
+## [Source](http://adventofcode.com/2024/day/3)
 
 | Name                                                                                                 | Correctness    |
 | :--------------------------------------------------------------------------------------------------- | :------------- |
