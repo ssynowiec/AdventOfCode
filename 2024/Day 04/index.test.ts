@@ -17,7 +17,7 @@ test.describe('Day 04', () => {
 
 	const expectedResult2 = 0;
 	test(`Part 2 should return ${expectedResult2}`, async () => {
-		const result = await partTwo(__dirname + '/test2.data.txt');
+		const result = await partTwo(__dirname + '/test.data.txt');
 
 		expect(result).toBe(expectedResult2);
 
