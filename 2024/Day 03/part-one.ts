@@ -16,8 +16,6 @@ export const partOne = async (input: string): Promise<number> => {
 				result += a * b;
 			}
 		});
-
-		console.log(parsedLine);
 	});
 
 	return result;
