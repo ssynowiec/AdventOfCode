@@ -2,11 +2,11 @@
 
 > Solutions of [Advent of Code 2024](http://adventofcode.com/2024/) puzzles
 
-Completed: 1/25 (12%)
+Completed: 2/25 (16%)
 
 -   ✅ [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2001) ⭐⭐
 -   [Day 02](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2002) ⭐
--   [Day 03](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2003)
+-   [Day 03](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2003) ⭐
 -   Day 04
 -   Day 05
 -   Day 06

@@ -6,7 +6,18 @@ export const partOne = async (input: string): Promise<number> => {
 	const data = await asyncReadFile(input);
 
 	data.forEach(line => {
-		const parsedLine = line.split(' ');
+		const regex = /mul\(\d+,\d+\)/g;
+		const parsedLine = line.match(regex) || [];
+
+		parsedLine.forEach(operation => {
+			const matches = operation.match(/\d+/g);
+			if (matches) {
+				const [a, b] = matches.map(Number);
+				result += a * b;
+			}
+		});
+
+		console.log(parsedLine);
 	});
 
 	return result;
