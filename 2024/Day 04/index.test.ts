@@ -15,7 +15,7 @@ test.describe('Day 04', () => {
 		}
 	});
 
-	const expectedResult2 = 0;
+	const expectedResult2 = 9;
 	test(`Part 2 should return ${expectedResult2}`, async () => {
 		const result = await partTwo(__dirname + '/test.data.txt');
 
