@@ -55,8 +55,6 @@ export const partTwo = async (input: string): Promise<number> => {
 		if (wasIncorrect) {
 			const centralIndex = Math.floor(parsedUpdate.length / 2);
 			result += parsedUpdate[centralIndex];
-			console.log('Incorrect:', update);
-			console.log('Correct:', parsedUpdate);
 		}
 	});
 
