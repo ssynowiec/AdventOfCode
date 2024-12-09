@@ -2,7 +2,7 @@
 
 > Solutions of [Advent of Code 2024](http://adventofcode.com/2024/) puzzles
 
-Completed: 6/25 (24%)
+Completed: 6/25 (26%)
 
 -   ✅ [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2001) ⭐⭐
 -   [Day 02](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2002) ⭐
@@ -12,7 +12,7 @@ Completed: 6/25 (24%)
 -   [Day 06](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2006) ⭐
 -   ✅ [Day 07](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2007) ⭐⭐
 -   [Day 08](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2008)
--   Day 09
+-   [Day 09](https://github.com/ssynowiec/AdventOfCode/tree/main/2024/Day%2008) ⭐
 -   Day 10
 -   Day 11
 -   Day 12
