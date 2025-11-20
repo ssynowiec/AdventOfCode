@@ -1,0 +1,28 @@
+{
+	"name": "advent-of-code-2025",
+	"version": "1.0.0",
+	"description": "Solutions for Advent of Code 2025 in TypeScript",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ssynowiec/AdventOfCode.git",
+		"directory": "2025"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"adventofcode",
+		"aoc",
+		"aoc2025",
+		"typescript"
+	],
+	"author": "Stanisław Synowiec <stasyn1410@gmail.com> (https://ssynowiec.pl)",
+	"license": "ISC",
+	"engines": {
+		"node": ">=24.11.1",
+		"npm": ">=11.6.2",
+		"pnpm": ">=10.22.0"
+	},
+	"packageManager": "pnpm@10.22.0"
+}
