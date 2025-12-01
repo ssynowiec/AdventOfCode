@@ -45,5 +45,3 @@ export const partOne = (input: string): number => {
 
 	return countPos0;
 };
-
-// console.log(partOne('/input.data.txt'));
