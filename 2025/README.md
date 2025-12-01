@@ -2,9 +2,9 @@
 
 > Solutions of [Advent of Code 2025](http://adventofcode.com/2025/) puzzles
 
-Completed: 0/12 (0%)
+Completed: 0/12
 
--   Day 01
+-   [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2025/Day%2001)
 -   Day 02
 -   Day 03
 -   Day 05
