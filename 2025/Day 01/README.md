@@ -9,4 +9,4 @@
 | [Test Part One](https://github.com/ssynowiec/AdventOfCode/blob/main/2025/Day%2001/index.test.ts#L7)  | Correct ✅  |
 | [Test Part Two](https://github.com/ssynowiec/AdventOfCode/blob/main/2025/Day%2001/index.test.ts#L19) | Correct ✅  |
 
-### Day complieted with ⭐
+### Day complieted with ⭐⭐
