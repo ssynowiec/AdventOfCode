@@ -2,7 +2,7 @@
 
 > Solutions of [Advent of Code 2025](http://adventofcode.com/2025/) puzzles
 
-Completed: 0/12
+Completed: 1/12
 
 -   ✅ [Day 01](https://github.com/ssynowiec/AdventOfCode/tree/main/2025/Day%2001) ⭐⭐
 -   [Day 02](https://github.com/ssynowiec/AdventOfCode/tree/main/2025/Day%2002)
