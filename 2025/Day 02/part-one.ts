@@ -11,8 +11,6 @@ export const partOne = (input: string): number => {
 			.map(range => range.split('-').map(Number));
 
 		ranges.forEach(range => {
-			console.log('===============');
-
 			const [start, end] = range;
 			for (let number = start; number <= end; number++) {
 				if (number.toString().length % 2 !== 0) {
