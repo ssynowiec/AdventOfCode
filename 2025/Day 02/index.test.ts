@@ -3,7 +3,7 @@ import { partOne } from './part-one';
 // import { partTwo } from './part-two';
 
 test.describe('Day 02', () => {
-	const expectedResult1 = 0;
+	const expectedResult1 = 1227775554;
 	test(`Part 1 should return ${expectedResult1}`, async () => {
 		const result = partOne(__dirname + '/test.data.txt');
 
