@@ -15,15 +15,15 @@ test.describe('Day 03', () => {
 		}
 	});
 
-	// const expectedResult2 = 0;
-	// test(`Part 2 should return ${expectedResult2}`, async () => {
-	// 	const result = partTwo(__dirname + '/test.data.txt');
+	const expectedResult2 = 3121910778619;
+	test(`Part 2 should return ${expectedResult2}`, async () => {
+		const result = partTwo(__dirname + '/test.data.txt');
 
-	// 	expect(result).toBe(expectedResult2);
+		expect(result).toBe(expectedResult2);
 
-	// 	if (result === expectedResult2) {
-	// 		const value = partTwo(__dirname + '/input.data.txt');
-	// 		console.log('Part 2:', value);
-	// 	}
-	// });
+		if (result === expectedResult2) {
+			const value = partTwo(__dirname + '/input.data.txt');
+			console.log('Part 2:', value);
+		}
+	});
 });
