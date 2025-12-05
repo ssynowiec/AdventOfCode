@@ -9,7 +9,7 @@ Completed: 4/12
 -   ✅ [Day 03](https://github.com/ssynowiec/AdventOfCode/tree/main/2025/Day%2003) ⭐⭐
 -   ✅ [Day 04](https://github.com/ssynowiec/AdventOfCode/tree/main/2025/Day%2004) ⭐⭐
 -   [Day 05](https://github.com/ssynowiec/AdventOfCode/tree/main/2025/Day%2005) ⭐
--   Day 06
+-   [Day 06](https://github.com/ssynowiec/AdventOfCode/tree/main/2025/Day%2006)
 -   Day 07
 -   Day 08
 -   Day 09
