@@ -12,9 +12,7 @@ export const partOne = (input: string): number => {
 	ids.forEach(id => {
 		let counted = false;
 		ranges.forEach(range => {
-			const [minStr, maxStr] = range.split('-').map(Number);
-			const min = Number(minStr);
-			const max = Number(maxStr);
+			const [min, max] = range.split('-').map(Number);
 
 			if (id >= min && id <= max && !counted) {
 				result++;
